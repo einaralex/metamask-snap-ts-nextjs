@@ -1,13 +1,16 @@
 import { OnRpcRequestHandler } from '@metamask/snap-types';
 
-export const onRpcRequest: OnRpcRequestHandler = ({ origin, request }) => {
+export const onRpcRequest: OnRpcRequestHandler = async ({
+  origin: originLocation,
+  request,
+}) => {
   switch (request.method) {
     case 'hello':
       return wallet.request({
         method: 'snap_confirm',
         params: [
           {
-            prompt: `Hello, ${origin}!`,
+            prompt: `Hello, ${originLocation}!`,
             description:
               'This custom confirmation is just for display purposes.',
             textAreaContent:

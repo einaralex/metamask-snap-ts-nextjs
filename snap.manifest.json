@@ -1,19 +1,19 @@
 {
-  "version": "1.0.0",
-  "proposedName": "MetaMask TypeScript Template Snap\n",
-  "description": "An example Snap written in TypeScript.",
+  "version": "1.1.0",
+  "proposedName": "MetaMask Template Snap",
+  "description": "A MetaMask Snap template with better development experience Next.js and Typescript.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/template-typescript-snap.git"
+    "url": "https://github.com/MetaMask/snap-template.git"
   },
   "source": {
-    "shasum": "ZW1yly4ughA3heTnFzWGUMdo0zc87pYqXw2IyqLGbTQ=",
+    "shasum": "PT4Ei5Kl5i/oGfzgNBAV7DERlzuijv9KpBvlRloeSj4=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
-        "packageName": "template-typescript-snap",
-        "registry": "https://registry.npmjs.org/",
-        "iconPath": "images/icon.svg"
+        "iconPath": "images/icon.svg",
+        "packageName": "metamask-snaps-ts-nextjs",
+        "registry": "https://registry.npmjs.org/"
       }
     }
   },

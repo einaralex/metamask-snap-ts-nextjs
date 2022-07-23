@@ -1,4 +1,14 @@
-# @metamask/template-typescript-snap
+# @metamask/template-typescript-snap with Next.js
+
+## Usage
+
+`yarn install`
+
+`yarn dev` - Will launch a watcher for snaps and the Next.js development environment.
+
+Visit `localhost:3000`.
+
+---
 
 This repository demonstrates how to develop a Snap with TypeScript.
 

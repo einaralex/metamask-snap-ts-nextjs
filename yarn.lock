@@ -1991,15 +1991,15 @@
     tweetnacl "^1.0.3"
     tweetnacl-util "^0.15.1"
 
-"@metamask/execution-environments@^0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@metamask/execution-environments/-/execution-environments-0.18.0.tgz#4af5f5a056f39f445e2e461105ae5ff39163d39b"
-  integrity sha512-0XTkpMyWwiXDE21SRwtO5JWTElgzsrNdgZhaNqS4NpjZPr+jOrgiZH+Jeb/YXdkW6oBF9nX8yLnnSvWdGzIpyA==
+"@metamask/execution-environments@^0.18.1":
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/@metamask/execution-environments/-/execution-environments-0.18.1.tgz#46853241fc0dda4e92b358d56fea927745efef42"
+  integrity sha512-PnEPvcIBsNq2rYshrZePAPL3vGaWPrJyztHlSn+dP9vM2XR1M+Qc0/QrgGy6hnOidQIkhn2ZuFfsnm72dJFmUA==
   dependencies:
     "@metamask/object-multiplex" "^1.2.0"
     "@metamask/post-message-stream" "^6.0.0"
     "@metamask/providers" "^9.0.0"
-    "@metamask/snap-types" "^0.18.0"
+    "@metamask/snap-types" "^0.18.1"
     "@metamask/utils" "^2.0.0"
     eth-rpc-errors "^4.0.3"
     pump "^3.0.0"
@@ -2060,13 +2060,13 @@
   integrity sha512-/kSXhY692qiV1MXu6EeOZvg5nECLclxNXcKCxJ3cXQgYuRymRHpdx/t7JXfsK+JLjwA1e1c1/SBrlQYpusC29Q==
 
 "@metamask/snap-controllers@^0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@metamask/snap-controllers/-/snap-controllers-0.18.0.tgz#1be6f13d0e20596ebc88e2391511652e2e843ca3"
-  integrity sha512-E6qOPXxVa/8LLUUTn6/w84xFxW3GCdkd4zYOnC1HdOOuG0g2uZ+zvz+9k8oSX71/0DFtmTzTbYrzAFGDDum3Pw==
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/@metamask/snap-controllers/-/snap-controllers-0.18.1.tgz#081da8664436aed5d3a0ff5f682807de7424fcff"
+  integrity sha512-hoozCeKVV+HCMIPmDg2F5KcIyBEsbIFTM5xL4dmkf5i16+yWDkdNN2iCIfePk+gtpcWyUK6bsevOdu2KwVgEHg==
   dependencies:
     "@metamask/browser-passworder" "^3.0.0"
     "@metamask/controllers" "^30.0.0"
-    "@metamask/execution-environments" "^0.18.0"
+    "@metamask/execution-environments" "^0.18.1"
     "@metamask/object-multiplex" "^1.1.0"
     "@metamask/obs-store" "^7.0.0"
     "@metamask/post-message-stream" "^6.0.0"
@@ -2088,13 +2088,6 @@
     readable-web-to-node-stream "^3.0.2"
     semver "^7.3.5"
     tar-stream "^2.2.0"
-
-"@metamask/snap-types@^0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@metamask/snap-types/-/snap-types-0.18.0.tgz#1a87fb60f1413f08e2b52ec2834dba74d2a92c7e"
-  integrity sha512-e3LWwpNLFfSz3UegH/Rj7PE7WMrnt8R2s3014fq80nkqYzP0l+pOo5elnHM9J+MXaeD8dLWYr27CT4jEBT4HVw==
-  dependencies:
-    "@metamask/controllers" "^30.0.0"
 
 "@metamask/snap-types@^0.18.1":
   version "0.18.1"
